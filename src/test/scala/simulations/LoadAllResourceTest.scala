@@ -58,7 +58,7 @@ class LoadAllResourceTest extends Simulation {
     .inject(rampUsers(users) over duration)
   setUp(execution).protocols(httpProtocol).assertions(
     global.responseTime.max.lt(5000),
-    global.responseTime.mean.lt(800),
+    global.responseTime.mean.lt(1200),
     global.successfulRequests.percent.gt(95))
 
 }
