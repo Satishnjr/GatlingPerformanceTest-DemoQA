@@ -1,0 +1,13 @@
+ [
+     {
+        "page": "/registration/"
+    }, {
+        "page": "/draggable/"
+    }, {
+        "page": "/droppable/"
+    }, {
+        "page": "/resizable/"
+    },{
+        "page": "/selectable/"
+    }
+]
